@@ -1,9 +1,54 @@
+/** configuración general del postcard*/
 body {
-	background: black;
+    background: black;
 }
-.postcard {
+
+.postcard{
 	background: white;
 	width: 400px;
 	height: 300px;
-	margin: auto;
+    margin: auto;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+/** encabezado del postcard*/
+
+.encabezado{
+    font-size: 14px;
+    color: black;
+    overflow: hidden;
+}
+
+.left{float:left;} 
+img{max-width: 50px; float: right;}
+
+/** cuerpo del postcard*/
+.contenido{overflow: hidden;
+font-family: 'Shadows Into Light', cursive;
+}
+
+.cuerpo-derecho{float: right;width: 50%;}
+.cuerpo-derecho input[type=text]{
+    display: block;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-size: 14px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+.cuerpo-izquierdo{float: left;width: 50%;}
+
+/** footer del postcard*/
+
+.postcard-footer input[type=submit]{
+    border: none;
+    border-bottom:1px solid gray;
+    width: auto;
+    text-align:center;
+}
+.postcard-footer {text-align: center;}
