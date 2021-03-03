@@ -18,7 +18,7 @@ body {
 /** encabezado del postcard*/
 
 .encabezado{
-    font-size: 14px;
+    font-size: 10px;
     color: black;
     overflow: hidden;
 }
@@ -36,8 +36,10 @@ font-family: 'Shadows Into Light', cursive;
     display: block;
     border: none;
     border-bottom: 2px solid gray;
-    font-size: 14px;
+    font-size: 10px;
     font-family: 'Shadows Into Light', cursive;
+    width: 100%;
+    margin-top: 15px ;
 }
 
 
